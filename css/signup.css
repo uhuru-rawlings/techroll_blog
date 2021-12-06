@@ -1,0 +1,11 @@
+/* #form_data{
+    background-color: rgb(147, 209, 147);
+    width: 400px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgb(171, 204, 171);
+} */
+.blank{
+    display: flex;
+}

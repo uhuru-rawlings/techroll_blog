@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(222, 238, 222);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+nav .navlist ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+nav .navlist ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    color: green;
+    padding-bottom: 10px;
+}
+.logo{
+    color: green;
+    font-size: 26px;
+    font-weight:normal;
+}
+.logo a{
+    color: green;
+    text-decoration: none;
+}
+.logo,.menu,.close{
+    color: green;
+    font-size: 26px;
+    font-weight:normal;
+}
+#menubtn,#closebtn{
+    display: none;
+}
+#imagesform{
+    width: 100% !important;
+}
+.form{
+    width: 100%;
+}
+.blogitems{
+    width: 350px;
+    height: 370px;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(236, 245, 236);
+    position: relative;
+}
+.flexblogitems{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+#all_messages_here{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+#blogs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.messages_here{
+    background-color: rgb(236, 245, 236);
+    width: 250px;
+    font-size: 17px;
+    color: gray;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+}
+.active{
+    border-bottom: 2px solid orangered;
+}
+#No_messages{
+    width: 250px;
+    background-color: rgb(236, 245, 236);
+    color: gray;
+    padding: 10px;
+    text-align: center;
+}
+#closespans{
+   font-size: 20px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+#closedbtns{
+    display: none;
+}
+@media screen and (max-width: 740px) {
+    #listitems{
+        display: none;
+    }
+    #menubtn{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    #closebtn{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .navlist ul li{
+        list-style: none;
+        display: block;
+        margin-right: 20px;
+    }
+    #navlists{
+       position: absolute;
+       top: 40px;
+       right: 20px;
+       z-index: 3;
+       background-color: rgba(0,0,0,.7);
+       color: #FFFFFF !important;
+       backdrop-filter:inherit;
+    }
+}

@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(226, 245, 226);
+    align-items: center;
+    
+}
+.forms{
+    width: fit-content;
+    background-color: rgb(236, 245, 236);
+    padding: 20px;
+    margin: auto;
+}
